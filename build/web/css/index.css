@@ -1,0 +1,56 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 17/05/2023, 8:41:21 p. m.
+    Author     : hp
+*/
+/* Estilos generales */
+/* Resetear estilos predeterminados */
+/* Definimos un estilo para el título principal */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Estilo para el subtitulo */
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Estilo para la lista de opciones */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 50px;
+}
+
+/* Estilo para los enlaces de opciones */
+a {
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  transition: background-color 0.2s ease-in-out;
+}
+
+a:hover {
+  background-color: #eee;
+}
+
+/* Estilo para el contenedor central de la página */
+center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 35vh;
+}
